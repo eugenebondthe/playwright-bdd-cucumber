@@ -1,0 +1,26 @@
+# Исключаем системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорируем зависимости
+node_modules/
+venv/
+env/
+*.pyc
+__pycache__/
+bin/
+obj/
+
+# Исключаем логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Игнорируем файлы IDE/редакторов
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
